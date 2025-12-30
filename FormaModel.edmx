@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DataBaseForma2025Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Attendees">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerId" Type="int" />
+          <Property Name="DateTime" Type="datetime" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Baqat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="DaysPerMonth" Type="int" />
+          <Property Name="MaxDaysPerWeek" Type="int" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Customers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerCode" Type="nvarchar" MaxLength="50" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Subscribes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerId" Type="int" />
+          <Property Name="BaqaId" Type="int" />
+          <Property Name="SubscribeDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Password" Type="nvarchar" MaxLength="100" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <Association Name="FK__Attendees__Custo__3E52440B">
+          <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+          <End Role="Attendees" Type="Self.Attendees" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Attendees">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Subscribe__BaqaI__4316F928">
+          <End Role="Baqat" Type="Self.Baqat" Multiplicity="0..1" />
+          <End Role="Subscribes" Type="Self.Subscribes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Baqat">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Subscribes">
+              <PropertyRef Name="BaqaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Subscribe__Custo__4222D4EF">
+          <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+          <End Role="Subscribes" Type="Self.Subscribes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Subscribes">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DataBaseForma2025ModelStoreContainer">
+          <EntitySet Name="Attendees" EntityType="Self.Attendees" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Baqat" EntityType="Self.Baqat" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subscribes" EntityType="Self.Subscribes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Attendees__Custo__3E52440B" Association="Self.FK__Attendees__Custo__3E52440B">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Attendees" EntitySet="Attendees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Subscribe__BaqaI__4316F928" Association="Self.FK__Subscribe__BaqaI__4316F928">
+            <End Role="Baqat" EntitySet="Baqat" />
+            <End Role="Subscribes" EntitySet="Subscribes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Subscribe__Custo__4222D4EF" Association="Self.FK__Subscribe__Custo__4222D4EF">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Subscribes" EntitySet="Subscribes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataBaseForma2025Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Attendee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerId" Type="Int32" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__Attendees__Custo__3E52440B" FromRole="Attendees" ToRole="Customers" />
+        </EntityType>
+        <EntityType Name="Baqat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DaysPerMonth" Type="Int32" />
+          <Property Name="MaxDaysPerWeek" Type="Int32" />
+          <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Subscribes" Relationship="Self.FK__Subscribe__BaqaI__4316F928" FromRole="Baqat" ToRole="Subscribes" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Attendees" Relationship="Self.FK__Attendees__Custo__3E52440B" FromRole="Customers" ToRole="Attendees" />
+          <NavigationProperty Name="Subscribes" Relationship="Self.FK__Subscribe__Custo__4222D4EF" FromRole="Customers" ToRole="Subscribes" />
+        </EntityType>
+        <EntityType Name="Subscribe">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerId" Type="Int32" />
+          <Property Name="BaqaId" Type="Int32" />
+          <NavigationProperty Name="Baqat" Relationship="Self.FK__Subscribe__BaqaI__4316F928" FromRole="Subscribes" ToRole="Baqat" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__Subscribe__Custo__4222D4EF" FromRole="Subscribes" ToRole="Customers" />
+          <Property Name="SubscribeDate" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK__Attendees__Custo__3E52440B">
+          <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="Attendees" Type="Self.Attendee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Attendees">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Subscribe__BaqaI__4316F928">
+          <End Role="Baqat" Type="Self.Baqat" Multiplicity="0..1" />
+          <End Role="Subscribes" Type="Self.Subscribe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Baqat">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Subscribes">
+              <PropertyRef Name="BaqaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Subscribe__Custo__4222D4EF">
+          <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+          <End Role="Subscribes" Type="Self.Subscribe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Subscribes">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DataBaseForma2025Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Attendees" EntityType="Self.Attendee" />
+          <EntitySet Name="Baqats" EntityType="Self.Baqat" />
+          <EntitySet Name="Customers" EntityType="Self.Customer" />
+          <EntitySet Name="Subscribes" EntityType="Self.Subscribe" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <AssociationSet Name="FK__Attendees__Custo__3E52440B" Association="Self.FK__Attendees__Custo__3E52440B">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Attendees" EntitySet="Attendees" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Subscribe__BaqaI__4316F928" Association="Self.FK__Subscribe__BaqaI__4316F928">
+            <End Role="Baqat" EntitySet="Baqats" />
+            <End Role="Subscribes" EntitySet="Subscribes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Subscribe__Custo__4222D4EF" Association="Self.FK__Subscribe__Custo__4222D4EF">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Subscribes" EntitySet="Subscribes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataBaseForma2025ModelStoreContainer" CdmEntityContainer="DataBaseForma2025Entities">
+          <EntitySetMapping Name="Attendees">
+            <EntityTypeMapping TypeName="DataBaseForma2025Model.Attendee">
+              <MappingFragment StoreEntitySet="Attendees">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Baqats">
+            <EntityTypeMapping TypeName="DataBaseForma2025Model.Baqat">
+              <MappingFragment StoreEntitySet="Baqat">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="DaysPerMonth" ColumnName="DaysPerMonth" />
+                <ScalarProperty Name="MaxDaysPerWeek" ColumnName="MaxDaysPerWeek" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="DataBaseForma2025Model.Customer">
+              <MappingFragment StoreEntitySet="Customers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CustomerCode" ColumnName="CustomerCode" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subscribes">
+            <EntityTypeMapping TypeName="DataBaseForma2025Model.Subscribe">
+              <MappingFragment StoreEntitySet="Subscribes">
+                <ScalarProperty Name="SubscribeDate" ColumnName="SubscribeDate" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="BaqaId" ColumnName="BaqaId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="DataBaseForma2025Model.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

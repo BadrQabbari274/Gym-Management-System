@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="159f8d6cca264cc1bbdd0d57f8b86bee" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBaseForma2025Model.Attendee" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseForma2025Model.Baqat" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseForma2025Model.Customer" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseForma2025Model.Subscribe" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseForma2025Model.User" Width="1.5" PointX="5.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="DataBaseForma2025Model.FK__Attendees__Custo__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseForma2025Model.FK__Subscribe__BaqaI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseForma2025Model.FK__Subscribe__Custo__4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,22 @@
+﻿<Application x:Class="Forma_System.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- ملف الستايل العام -->
+                <ResourceDictionary Source="Themes/ComboBoxStyles.xaml" />
+                <ResourceDictionary Source="Themes/TextBoxStyles.xaml" />
+                <ResourceDictionary Source="Themes/CheckBoxStyles.xaml" />
+                <ResourceDictionary Source="Themes/PasswordBoxStyles.xaml" />
+                <ResourceDictionary Source="Themes/TextBlockStyles.xaml" />
+                <ResourceDictionary Source="Themes/CustomMessageBoxStyles.xaml" />
+                <ResourceDictionary Source="Themes/TextBoxReadStyles.xaml" />
+                <ResourceDictionary Source="Themes/ButtonStyles.xaml" />
+                <ResourceDictionary Source="Themes/DataGridStyles.xaml" />
+                <!-- ممكن تضيف هنا ملفات قواميس موارد ثانية -->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

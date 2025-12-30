@@ -1,0 +1,782 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\MyWork\\MyProjects\\Forma System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\userspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:userspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\aboutuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:aboutuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\reportspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:reportspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\baqatpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:baqatpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\attendedspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:attendedspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\customerspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:customerspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\subscribepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:subscribepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\homapage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:homapage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\subscribepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:subscribepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|f:\\mywork\\myprojects\\forma system\\aboutuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:aboutuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\homapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:homapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\baqatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:baqatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\attendedspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:attendedspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\customerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:customerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\reportsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:reportsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\checkboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\checkboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\custommessageboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\custommessageboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\custommessagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\custommessagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\textboxreadstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\textboxreadstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\textblockstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\textblockstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\passwordboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\passwordboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\baqat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:baqat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\textboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\textboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\getids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:getids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\datagridstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\datagridstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\formamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:formamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\inputpassword.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:inputpassword.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\inputpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:inputpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\periodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:periodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\themes\\comboboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:themes\\comboboxstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\antireversetools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:antireversetools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\licensespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:licensespage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|F:\\MyWork\\MyProjects\\Forma System\\licensespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9808600-71BC-44EB-A28F-193340DAA80A}|Forma System.csproj|solutionrelative:licensespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-30T12:40:44.178Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:37:03.6Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomaPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\HomaPage.xaml",
+              "RelativeDocumentMoniker": "HomaPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\HomaPage.xaml",
+              "RelativeToolTip": "HomaPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T04:41:26.969Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomaPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\HomaPage.xaml.cs",
+              "RelativeDocumentMoniker": "HomaPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\HomaPage.xaml.cs",
+              "RelativeToolTip": "HomaPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:45:45.205Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubscribePage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\SubscribePage.xaml",
+              "RelativeDocumentMoniker": "SubscribePage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\SubscribePage.xaml",
+              "RelativeToolTip": "SubscribePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-01T15:51:57.753Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubscribePage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\SubscribePage.xaml.cs",
+              "RelativeDocumentMoniker": "SubscribePage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\SubscribePage.xaml.cs",
+              "RelativeToolTip": "SubscribePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:46:15.724Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomersPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\CustomersPage.xaml",
+              "RelativeDocumentMoniker": "CustomersPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\CustomersPage.xaml",
+              "RelativeToolTip": "CustomersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T04:41:28.577Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\CustomersPage.xaml.cs",
+              "RelativeDocumentMoniker": "CustomersPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\CustomersPage.xaml.cs",
+              "RelativeToolTip": "CustomersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:46:46.005Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AttendedsPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\AttendedsPage.xaml",
+              "RelativeDocumentMoniker": "AttendedsPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\AttendedsPage.xaml",
+              "RelativeToolTip": "AttendedsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T04:41:34.129Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendedsPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\AttendedsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AttendedsPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\AttendedsPage.xaml.cs",
+              "RelativeToolTip": "AttendedsPage.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:45:59.11Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaqatPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\BaqatPage.xaml",
+              "RelativeDocumentMoniker": "BaqatPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\BaqatPage.xaml",
+              "RelativeToolTip": "BaqatPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T04:41:32.12Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaqatPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\BaqatPage.xaml.cs",
+              "RelativeDocumentMoniker": "BaqatPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\BaqatPage.xaml.cs",
+              "RelativeToolTip": "BaqatPage.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:47:09.004Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "ReportsPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\ReportsPage.xaml",
+              "RelativeToolTip": "ReportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T11:55:53.996Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ReportsPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "ReportsPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T01:11:48.947Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReportsService.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\ReportsService.cs",
+              "RelativeDocumentMoniker": "ReportsService.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\ReportsService.cs",
+              "RelativeToolTip": "ReportsService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T01:21:41.647Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AboutUsPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\AboutUsPage.xaml",
+              "RelativeDocumentMoniker": "AboutUsPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\AboutUsPage.xaml",
+              "RelativeToolTip": "AboutUsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T04:42:13.662Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutUsPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\AboutUsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AboutUsPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\AboutUsPage.xaml.cs",
+              "RelativeToolTip": "AboutUsPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:44:21.035Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\UsersPage.xaml",
+              "RelativeDocumentMoniker": "UsersPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\UsersPage.xaml",
+              "RelativeToolTip": "UsersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T07:03:37.538Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\UsersPage.xaml.cs",
+              "RelativeDocumentMoniker": "UsersPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\UsersPage.xaml.cs",
+              "RelativeToolTip": "UsersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:03:42.522Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InputPassword.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\InputPassword.xaml",
+              "RelativeDocumentMoniker": "InputPassword.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\InputPassword.xaml",
+              "RelativeToolTip": "InputPassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T04:40:59.877Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InputPassword.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\InputPassword.xaml.cs",
+              "RelativeDocumentMoniker": "InputPassword.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\InputPassword.xaml.cs",
+              "RelativeToolTip": "InputPassword.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:19:36.454Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetIDs.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\GetIDs.cs",
+              "RelativeDocumentMoniker": "GetIDs.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\GetIDs.cs",
+              "RelativeToolTip": "GetIDs.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:43:16.695Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AntiReverseTools.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\AntiReverseTools.cs",
+              "RelativeDocumentMoniker": "AntiReverseTools.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\AntiReverseTools.cs",
+              "RelativeToolTip": "AntiReverseTools.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:47:29.44Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LicensesPage.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\LicensesPage.xaml",
+              "RelativeDocumentMoniker": "LicensesPage.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\LicensesPage.xaml",
+              "RelativeToolTip": "LicensesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T06:07:15.237Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LicensesPage.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\LicensesPage.xaml.cs",
+              "RelativeDocumentMoniker": "LicensesPage.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\LicensesPage.xaml.cs",
+              "RelativeToolTip": "LicensesPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:10:35.587Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAADlAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-29T10:06:34.503Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FormaModel.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\FormaModel.edmx",
+              "RelativeDocumentMoniker": "FormaModel.edmx",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\FormaModel.edmx [Diagram1]",
+              "RelativeToolTip": "FormaModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-30T13:22:28.354Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CheckBoxStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CheckBoxStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\CheckBoxStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CheckBoxStyles.xaml",
+              "RelativeToolTip": "Themes\\CheckBoxStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T14:38:19.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomMessageBox.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CustomMessageBox.xaml.cs",
+              "RelativeDocumentMoniker": "Themes\\CustomMessageBox.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CustomMessageBox.xaml.cs",
+              "RelativeToolTip": "Themes\\CustomMessageBox.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T13:08:24.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomMessageBoxStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CustomMessageBoxStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\CustomMessageBoxStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CustomMessageBoxStyles.xaml",
+              "RelativeToolTip": "Themes\\CustomMessageBoxStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T13:00:21.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PasswordBoxStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\PasswordBoxStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\PasswordBoxStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\PasswordBoxStyles.xaml",
+              "RelativeToolTip": "Themes\\PasswordBoxStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T11:40:36.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T10:11:24.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ButtonStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\ButtonStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\ButtonStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\ButtonStyles.xaml",
+              "RelativeToolTip": "Themes\\ButtonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-02T01:05:06.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomMessageBox.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CustomMessageBox.xaml",
+              "RelativeDocumentMoniker": "Themes\\CustomMessageBox.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\CustomMessageBox.xaml",
+              "RelativeToolTip": "Themes\\CustomMessageBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T12:57:38.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "RelayCommand.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\RelayCommand.cs",
+              "RelativeToolTip": "RelayCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T13:15:19.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Attendee.cs",
+              "RelativeDocumentMoniker": "Attendee.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Attendee.cs",
+              "RelativeToolTip": "Attendee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:54:13.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Subscribe.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Subscribe.cs",
+              "RelativeDocumentMoniker": "Subscribe.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Subscribe.cs",
+              "RelativeToolTip": "Subscribe.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T02:10:09.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Baqat.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Baqat.cs",
+              "RelativeDocumentMoniker": "Baqat.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Baqat.cs",
+              "RelativeToolTip": "Baqat.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:21:14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TextBlockStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\TextBlockStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\TextBlockStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\TextBlockStyles.xaml",
+              "RelativeToolTip": "Themes\\TextBlockStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-03T17:30:28.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TextBoxStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\TextBoxStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\TextBoxStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\TextBoxStyles.xaml",
+              "RelativeToolTip": "Themes\\TextBoxStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-02T01:05:06.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TextBoxReadStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\TextBoxReadStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\TextBoxReadStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\TextBoxReadStyles.xaml",
+              "RelativeToolTip": "Themes\\TextBoxReadStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-03T16:44:02.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:54:35.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PeriodType.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\PeriodType.cs",
+              "RelativeDocumentMoniker": "PeriodType.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\PeriodType.cs",
+              "RelativeToolTip": "PeriodType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T02:30:12.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ComboBoxStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\ComboBoxStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\ComboBoxStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\ComboBoxStyles.xaml",
+              "RelativeToolTip": "Themes\\ComboBoxStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-02T00:18:19.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:11:32.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DataGridStyles.xaml",
+              "DocumentMoniker": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\DataGridStyles.xaml",
+              "RelativeDocumentMoniker": "Themes\\DataGridStyles.xaml",
+              "ToolTip": "F:\\MyWork\\MyProjects\\Forma System\\Themes\\DataGridStyles.xaml",
+              "RelativeToolTip": "Themes\\DataGridStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-02T00:24:34.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

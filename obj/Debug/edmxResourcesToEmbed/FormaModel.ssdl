@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataBaseForma2025Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Attendees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="DateTime" Type="datetime" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Baqat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="DaysPerMonth" Type="int" />
+    <Property Name="MaxDaysPerWeek" Type="int" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Subscribes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="BaqaId" Type="int" />
+    <Property Name="SubscribeDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__Attendees__Custo__3E52440B">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <End Role="Attendees" Type="Self.Attendees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendees">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscribe__BaqaI__4316F928">
+    <End Role="Baqat" Type="Self.Baqat" Multiplicity="0..1" />
+    <End Role="Subscribes" Type="Self.Subscribes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Baqat">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscribes">
+        <PropertyRef Name="BaqaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscribe__Custo__4222D4EF">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <End Role="Subscribes" Type="Self.Subscribes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscribes">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DataBaseForma2025ModelStoreContainer">
+    <EntitySet Name="Attendees" EntityType="Self.Attendees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Baqat" EntityType="Self.Baqat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subscribes" EntityType="Self.Subscribes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Attendees__Custo__3E52440B" Association="Self.FK__Attendees__Custo__3E52440B">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Attendees" EntitySet="Attendees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscribe__BaqaI__4316F928" Association="Self.FK__Subscribe__BaqaI__4316F928">
+      <End Role="Baqat" EntitySet="Baqat" />
+      <End Role="Subscribes" EntitySet="Subscribes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscribe__Custo__4222D4EF" Association="Self.FK__Subscribe__Custo__4222D4EF">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Subscribes" EntitySet="Subscribes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

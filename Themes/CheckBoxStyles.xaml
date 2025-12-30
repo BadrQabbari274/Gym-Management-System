@@ -1,0 +1,43 @@
+﻿<!-- Themes/CheckBoxStyles.xaml -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Custom CheckBox Style for NoSubscribe -->
+    <Style x:Key="NoSubscribeCheckBoxStyle" TargetType="CheckBox">
+        <!-- Appearance -->
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="Arial Black"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <!-- Custom bullet -->
+                        <Border x:Name="BulletBorder"
+                    Width="20" Height="20"
+                    CornerRadius="4"
+                    BorderBrush="White"
+                    BorderThickness="2"
+                    Background="Transparent"
+                    Margin="0,0,8,0"/>
+                        <ContentPresenter VerticalAlignment="Center" />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="BulletBorder" Property="Background" Value="#FFFAEBD7"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="BulletBorder" Property="BorderBrush" Value="#FF00AEEF"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

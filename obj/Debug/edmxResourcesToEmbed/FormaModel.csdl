@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataBaseForma2025Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Attendee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" />
+    <Property Name="DateTime" Type="DateTime" Precision="3" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Attendees__Custo__3E52440B" FromRole="Attendees" ToRole="Customers" />
+  </EntityType>
+  <EntityType Name="Baqat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DaysPerMonth" Type="Int32" />
+    <Property Name="MaxDaysPerWeek" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Subscribes" Relationship="Self.FK__Subscribe__BaqaI__4316F928" FromRole="Baqat" ToRole="Subscribes" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Attendees" Relationship="Self.FK__Attendees__Custo__3E52440B" FromRole="Customers" ToRole="Attendees" />
+    <NavigationProperty Name="Subscribes" Relationship="Self.FK__Subscribe__Custo__4222D4EF" FromRole="Customers" ToRole="Subscribes" />
+  </EntityType>
+  <EntityType Name="Subscribe">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" />
+    <Property Name="BaqaId" Type="Int32" />
+    <NavigationProperty Name="Baqat" Relationship="Self.FK__Subscribe__BaqaI__4316F928" FromRole="Subscribes" ToRole="Baqat" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Subscribe__Custo__4222D4EF" FromRole="Subscribes" ToRole="Customers" />
+    <Property Name="SubscribeDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__Attendees__Custo__3E52440B">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Attendees" Type="Self.Attendee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendees">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscribe__BaqaI__4316F928">
+    <End Role="Baqat" Type="Self.Baqat" Multiplicity="0..1" />
+    <End Role="Subscribes" Type="Self.Subscribe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Baqat">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscribes">
+        <PropertyRef Name="BaqaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscribe__Custo__4222D4EF">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Subscribes" Type="Self.Subscribe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscribes">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DataBaseForma2025Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Attendees" EntityType="Self.Attendee" />
+    <EntitySet Name="Baqats" EntityType="Self.Baqat" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Subscribes" EntityType="Self.Subscribe" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__Attendees__Custo__3E52440B" Association="Self.FK__Attendees__Custo__3E52440B">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Attendees" EntitySet="Attendees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscribe__BaqaI__4316F928" Association="Self.FK__Subscribe__BaqaI__4316F928">
+      <End Role="Baqat" EntitySet="Baqats" />
+      <End Role="Subscribes" EntitySet="Subscribes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscribe__Custo__4222D4EF" Association="Self.FK__Subscribe__Custo__4222D4EF">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Subscribes" EntitySet="Subscribes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

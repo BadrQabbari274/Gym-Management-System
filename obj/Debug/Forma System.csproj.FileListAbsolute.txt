@@ -1,0 +1,172 @@
+D:\Project\Forma System\obj\Debug\Forma System.csproj.AssemblyReference.cache
+D:\Project\Forma System\obj\Debug\InputPassword.baml
+D:\Project\Forma System\obj\Debug\ReportsPage.baml
+D:\Project\Forma System\obj\Debug\Themes\ButtonStyles.baml
+D:\Project\Forma System\obj\Debug\Themes\ComboBoxStyles.baml
+D:\Project\Forma System\obj\Debug\Themes\DataGridStyles.baml
+D:\Project\Forma System\obj\Debug\Themes\TextBoxStyles.baml
+D:\Project\Forma System\obj\Debug\App.baml
+D:\Project\Forma System\obj\Debug\AboutUsPage.g.cs
+D:\Project\Forma System\obj\Debug\AttendedsPage.g.cs
+D:\Project\Forma System\obj\Debug\BaqatPage.g.cs
+D:\Project\Forma System\obj\Debug\CustomersPage.g.cs
+D:\Project\Forma System\obj\Debug\HomaPage.g.cs
+D:\Project\Forma System\obj\Debug\InputPassword.g.cs
+D:\Project\Forma System\obj\Debug\LicensesPage.g.cs
+D:\Project\Forma System\obj\Debug\MainWindow.g.cs
+D:\Project\Forma System\obj\Debug\ReportsPage.g.cs
+D:\Project\Forma System\obj\Debug\SubscribePage.g.cs
+D:\Project\Forma System\obj\Debug\UsersPage.g.cs
+D:\Project\Forma System\obj\Debug\App.g.cs
+D:\Project\Forma System\obj\Debug\Forma System_Content.g.cs
+D:\Project\Forma System\obj\Debug\Forma System_MarkupCompile.cache
+D:\Project\Forma System\obj\Debug\Forma System_MarkupCompile.lref
+D:\Project\Forma System\bin\Debug\libSkiaSharp.dylib
+D:\Project\Forma System\bin\Debug\x86\libSkiaSharp.dll
+D:\Project\Forma System\bin\Debug\x64\libSkiaSharp.dll
+D:\Project\Forma System\bin\Debug\arm64\libSkiaSharp.dll
+D:\Project\Forma System\bin\Debug\Forma System.exe.config
+D:\Project\Forma System\bin\Debug\Forma System.exe
+D:\Project\Forma System\bin\Debug\Forma System.pdb
+D:\Project\Forma System\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Project\Forma System\bin\Debug\ClosedXML.dll
+D:\Project\Forma System\bin\Debug\ClosedXML.Parser.dll
+D:\Project\Forma System\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Project\Forma System\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\Project\Forma System\bin\Debug\EntityFramework.dll
+D:\Project\Forma System\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\Forma System\bin\Debug\ExcelNumberFormat.dll
+D:\Project\Forma System\bin\Debug\itextsharp.dll
+D:\Project\Forma System\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Project\Forma System\bin\Debug\RBush.dll
+D:\Project\Forma System\bin\Debug\SixLabors.Fonts.dll
+D:\Project\Forma System\bin\Debug\SkiaSharp.dll
+D:\Project\Forma System\bin\Debug\System.Buffers.dll
+D:\Project\Forma System\bin\Debug\System.Memory.dll
+D:\Project\Forma System\bin\Debug\System.Numerics.Vectors.dll
+D:\Project\Forma System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project\Forma System\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Project\Forma System\bin\Debug\ClosedXML.pdb
+D:\Project\Forma System\bin\Debug\ClosedXML.xml
+D:\Project\Forma System\bin\Debug\ClosedXML.Parser.xml
+D:\Project\Forma System\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Project\Forma System\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\Project\Forma System\bin\Debug\EntityFramework.xml
+D:\Project\Forma System\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\Forma System\bin\Debug\ExcelNumberFormat.xml
+D:\Project\Forma System\bin\Debug\itextsharp.xml
+D:\Project\Forma System\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Project\Forma System\bin\Debug\RBush.xml
+D:\Project\Forma System\bin\Debug\SixLabors.Fonts.xml
+D:\Project\Forma System\bin\Debug\SkiaSharp.pdb
+D:\Project\Forma System\bin\Debug\System.Buffers.xml
+D:\Project\Forma System\bin\Debug\System.Memory.xml
+D:\Project\Forma System\bin\Debug\System.Numerics.Vectors.xml
+D:\Project\Forma System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Project\Forma System\obj\Debug\AboutUsPage.baml
+D:\Project\Forma System\obj\Debug\AttendedsPage.baml
+D:\Project\Forma System\obj\Debug\BaqatPage.baml
+D:\Project\Forma System\obj\Debug\CustomersPage.baml
+D:\Project\Forma System\obj\Debug\HomaPage.baml
+D:\Project\Forma System\obj\Debug\LicensesPage.baml
+D:\Project\Forma System\obj\Debug\MainWindow.baml
+D:\Project\Forma System\obj\Debug\SubscribePage.baml
+D:\Project\Forma System\obj\Debug\UsersPage.baml
+D:\Project\Forma System\obj\Debug\Forma System.g.resources
+D:\Project\Forma System\obj\Debug\Forma_System.Properties.Resources.resources
+D:\Project\Forma System\obj\Debug\Forma System.csproj.GenerateResource.cache
+D:\Project\Forma System\obj\Debug\Forma System.csproj.CoreCompileInputs.cache
+D:\Project\Forma System\obj\Debug\Forma Sy.9002036E.Up2Date
+D:\Project\Forma System\obj\Debug\Forma System.exe
+D:\Project\Forma System\obj\Debug\Forma System.pdb
+D:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.csproj.AssemblyReference.cache
+D:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.exe
+D:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.pdb
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.csproj.AssemblyReference.cache
+F:\MyWork\MyProjects\Forma System\obj\Debug\InputPassword.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\ReportsPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\ButtonStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\ComboBoxStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\DataGridStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\TextBoxStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\App.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\AboutUsPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\AttendedsPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\BaqatPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\CustomersPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\HomaPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\InputPassword.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\LicensesPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\MainWindow.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\ReportsPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\SubscribePage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\UsersPage.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\App.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System_Content.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System_MarkupCompile.cache
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System_MarkupCompile.lref
+F:\MyWork\MyProjects\Forma System\bin\Debug\libSkiaSharp.dylib
+F:\MyWork\MyProjects\Forma System\bin\Debug\x86\libSkiaSharp.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\x64\libSkiaSharp.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\arm64\libSkiaSharp.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\Forma System.exe.config
+F:\MyWork\MyProjects\Forma System\bin\Debug\Forma System.exe
+F:\MyWork\MyProjects\Forma System\bin\Debug\Forma System.pdb
+F:\MyWork\MyProjects\Forma System\bin\Debug\BouncyCastle.Cryptography.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\ClosedXML.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\ClosedXML.Parser.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\DocumentFormat.OpenXml.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\EntityFramework.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\ExcelNumberFormat.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\itextsharp.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\RBush.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\SixLabors.Fonts.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\SkiaSharp.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Buffers.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Memory.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Numerics.Vectors.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\MyWork\MyProjects\Forma System\bin\Debug\BouncyCastle.Cryptography.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\ClosedXML.pdb
+F:\MyWork\MyProjects\Forma System\bin\Debug\ClosedXML.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\ClosedXML.Parser.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\DocumentFormat.OpenXml.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\EntityFramework.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\ExcelNumberFormat.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\itextsharp.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\RBush.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\SixLabors.Fonts.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\SkiaSharp.pdb
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Buffers.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Memory.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Numerics.Vectors.xml
+F:\MyWork\MyProjects\Forma System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\MyWork\MyProjects\Forma System\obj\Debug\AboutUsPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\AttendedsPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\BaqatPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\CustomersPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\HomaPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\LicensesPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\MainWindow.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\SubscribePage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\UsersPage.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.g.resources
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma_System.Properties.Resources.resources
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.csproj.GenerateResource.cache
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.csproj.CoreCompileInputs.cache
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma Sy.9002036E.Up2Date
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.exe
+F:\MyWork\MyProjects\Forma System\obj\Debug\Forma System.pdb
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\TextBoxReadStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\TextBlockStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\PasswordBoxStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\CustomMessageBox.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\CustomMessageBoxStyles.baml
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\CustomMessageBox.g.cs
+F:\MyWork\MyProjects\Forma System\obj\Debug\Themes\CheckBoxStyles.baml
